@@ -139,7 +139,6 @@ public class CustomerViewController implements Initializable{
 		InputStream stream;
 		try {
 			stream = new FileInputStream(imagePath);
-
 			Image image = new Image(stream);
 			ImageView view = new ImageView();
 			view.setImage(image);
